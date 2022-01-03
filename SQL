@@ -1,0 +1,1 @@
+SELECT Email FROM Preson GROUP BY Email HAVING COUNT(Email)>1
